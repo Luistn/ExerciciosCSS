@@ -15,12 +15,12 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
-  padding: 20px 0;
+  padding: 5px;
 }
 
 .logo-titulo img {
-  height: 60px;
+  height: 100px;
+  width: 100%;
 }
 
 .banner {
@@ -66,17 +66,50 @@ header {
 }
 
 .card {
-  background-color: white;
+  position: relative;
+  color: white;
   padding: 15px;
-  border-left: 8px solid #003366;
+  height: 120px;
+  border-radius: 8px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+  border-left: 8px solid rgba(0, 0, 0, 0.5); 
 }
 
 .card span {
   display: block;
   margin-top: 5px;
   font-size: 14px;
-  color: #444;
+  color: white;
+}
+
+.card-lancamento {
+  background-image: url('imagem/lancamento.jpg');
+}
+
+.card-bolsas {
+  background-image: url('imagem/museunacional.jpg');
+}
+
+.card-aniversario {
+  background-image: url('imagem/capa_207-anos.jpeg');
+}
+
+.card-relatorios {
+  background-image: url('imagem/relatorio.jpg');
+}
+
+.card-mestrado {
+  background-image: url('imagem/profllind_2025.jpg');
+}
+
+.card-concurso {
+  background-image: url('imagem/concurso-docente-di-2025.jpeg');
 }
 
 footer {
