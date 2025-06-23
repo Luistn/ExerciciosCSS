@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header {
+  text-align: center;
+  background: white;
+  padding-bottom: 1em;
+}
+
+.logo-titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.logo-titulo img {
+  height: 60px;
+}
+
+.banner {
+  width: 100%;
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.menu-lateral {
+  width: 200px;
+  float: left;
+  padding: 20px;
+  background-color: white;
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+}
+
+.menu-lateral li {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.doe-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #3b0099;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border-left: 8px solid #003366;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card span {
+  display: block;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #444;
+}
+
+footer {
+  clear: both;
+  background-color: #eee;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-size: 14px;
+  border-top: 1px solid #ccc;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 10px;
+}
+
+.footer-social {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.copy {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
